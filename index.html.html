@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-color: #fff8dc;
+        font-family: serif;
+        margin: 0;
+        padding: 40px;
+    }
+    h1 { font-family: initial;
+        border: 3px solid #FFB7A5;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #fff3b0, #ffe0a3);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        margin: 20px auto;
+        padding: 10px;
+        width: 500px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50 px;
+        color: #8B0000;
+    }
+    .link-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .link-card {
+        background-color: white;
+        width: 28%;
+        padding: 20px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .link-card: hover {transform: translateY(-10px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);}
+    .link-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px; 
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    }
+    .link-card:hover img {
+    transform: scale(1.05);
+    }
+    .link-card a {
+        display: block;
+        margin-top: 15px;
+        font-size: 30px;
+        text-decoration: none;
+        color: #8B0000;
+        font-weight: bold;}
+    .link-card p {
+        margin-top: 15px;
+        font-size: 22px;
+        color: #444;
+    }
+</style>
+</head>
+<body>
+    <h1> Đặc sản ẩm thực ba miền Việt Nam </h1>
+	<div class="link-container">
+        <div class="link-card">
+        <a href="mienbac.html"> Miền Bắc </a>
+        <p> Mở đầu hành trình với sự "khám phá" nét đặc sắc trong hương vị ẩm thực miền Bắc </p>
+        <img src="https://media.vietravel.com/images/Content/am-thuc-mien-bac-1159.jpg" alt="Hình ảnh ẩm thực miền Bắc">
+        </div>
+        <div class="link-card">
+        <a href="mientrung.html"> Miền Trung </a>
+        <p> Chầm chậm theo bước "tìm tòi" nét độc đáo thuộc về hương vị ẩm thực miền Trung </p>
+        <img src="https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/nguyendoan/anh-blog/am-thuc-mien-trung/Dac-trung-am-thuc-mien-trung-1.jpg" alt="Hình ảnh ẩm thực miền Trung">
+        </div>
+        <div class="link-card">
+        <a href="miennam.html"> Miền Nam </a>
+        <p> Trôi theo dòng "vi vu" ẩm thực tinh tế mà đậm đà của hương vị ẩm thực miền Nam </p>
+        <img src="https://statics.vincom.com.vn/xu-huong/0-0-0-mon-ngon-mien-nam/image15.png" alt="Hình ảnh ẩm thực miền Nam">
+        </div>
+    </div>
+</body>
+</html>
